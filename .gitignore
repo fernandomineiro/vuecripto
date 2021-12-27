@@ -1,0 +1,10 @@
+/node_modules
+/.idea
+.DS_Store
+.vscode
+.directory
+/dist
+.env
+.env.production
+.env.local
+package-lock.json

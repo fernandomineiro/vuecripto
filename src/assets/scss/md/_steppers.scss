@@ -1,0 +1,21 @@
+.md-stepper-header {
+  &,
+  &:hover,
+  &:active {
+    background: $white !important;
+    box-shadow: none;
+  }
+
+  & > .md-ripple {
+    padding: 12px 16px !important;
+  }
+
+  .md-stepper-text {
+    color: $black;
+  }
+
+  .md-stepper-number {
+    background: $cda-red-gradient !important;
+    color: $white !important;
+  }
+}

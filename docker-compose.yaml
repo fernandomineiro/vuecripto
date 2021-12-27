@@ -1,0 +1,20 @@
+version: '3.3'
+services:
+  cda-frontend-vuejs:
+    container_name: cda-frontend-vuejs
+    command: yarn serve
+    env_file:
+      - .env
+    tty: true
+    working_dir: /app
+    build:
+      context: .
+      dockerfile: docker/config/app/dev.Dockerfile
+    volumes:
+      - ./:/app
+      - /app/node_modules
+    stdin_open: true
+    environment:
+      - CHOKIDAR_USEPOLLING=true
+    ports:
+      - '${DOCKER_SERVER_PORT}:8080'

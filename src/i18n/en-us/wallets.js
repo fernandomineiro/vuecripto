@@ -1,0 +1,77 @@
+/**
+ * Wallets page messages
+ */
+
+export default {
+  acronym: "Acronym",
+  addWallets: "Add wallets",
+  addWallet: "Add wallets",
+  balance: 'Balance',
+  deposit: {
+    allowedFiles: "File type: JPG, PNG ou PDF",
+    branch: "Account Branch",
+    deposit: "Deposit",
+    disclaimer: "Balance confirmation time is up to 5 working days",
+    invalidFileType: "Invalid file type",
+    nConfirmations: "No confirmations | 1 confirmation | {n} confirmations",
+    number: "Account Number",
+    received: "{cur} deposit received!",
+    receivedLess: "Deposit received, but the amount was less than expected",
+    receiving: "Receiving {cur} deposit",
+    receivingLess: "Receiving deposit, but the amount is less than expected",
+    requestSuccessSubmitReceipt:
+      "Deposit request successfull, please attach transaction invoice",
+    submitReceipt: "Send your transaction invoice",
+    submitReceiptSuccess: "Invoice sent",
+    success: "Deposit request received",
+    transferToAddress: "Transfer to the address below"
+  },
+  withdraw: {
+    accountAndAmount: "Account and Amount",
+    accountCnpj: "Tax ID",
+    accountHolder: "Beneficiary",
+    accountNo: "Account Number",
+    accountType: "Account Type",
+    addAccount: "Add account",
+    addAccountSuccess: "Account added",
+    addCurrencyAccount: "Add {cur} account",
+    addressAndAmount: "Address and Amount",
+    bank: "Bank",
+    bankAddress: "Bank Address",
+    bankCode: "Bank Code",
+    bankName: "Bank Name",
+    branch: "Account Branch",
+    checkingAccount: "Checking Account",
+    currencyNotFound: "Currency not found",
+    currentAvailableBalance: "Your available balance is {balance}",
+    invalidBankType: "Invalid Bank Type",
+    invalidCryptoAddr: "Invalid address",
+    loadingInvoice: "Loading Invoice...",
+    noAccounts: "Account not found",
+    receiverAddr: "Withdraw Request",
+    requesting: "Requesting",
+    return: "Return",
+    returnToWallets: "Return to Wallets",
+    returnToWithdraw: "Return to Withdraw",
+    review: "Review Withdraw Info",
+    savingsAccount: "Savings Account",
+    selectAccount: "Select account",
+    sendCurTo: "Send {cur} to",
+    success: "Withdraw request successful",
+    toAccount: "To the Account",
+    toAddress: "To the Address",
+    totalGTBalance: "Total is greater than balance",
+    usdDomestic: "USD Domestic",
+    usdWireTransfer: "USD Wire Transfer",
+    useBalance: "Use Balance",
+    wireNo: "Wire Number",
+    withdraw: "Withdraw",
+    withdrawFiatNotFound: "Select withdraw account"
+  },
+  transfer: {
+    transfer: "Transfer",
+    recipientEmail: "Beneficiary E-mail",
+    success: "Successfull transfer!"
+  },
+  created: "{coin} has been added into your wallets"
+};
